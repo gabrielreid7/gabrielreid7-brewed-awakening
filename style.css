@@ -1,0 +1,64 @@
+.ba-nav{
+	background: #8e7157;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ba-nav ul{
+	list-style-type: none;
+	align-content: center;
+}
+
+.ba-nav li{
+	display: inline;
+	border-right: 2px solid #d7c8ba;
+}
+
+.ba-nav ul li:last-of-type{
+	padding-right: 35px;
+	border-right: none
+}
+
+.ba-nav ul li a{
+	color: #f4e3d3;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 22pt;
+}
+
+.ba-nav ul li a:hover{
+	color: #d7c8ba;
+}
+
+.announcements{
+	width: 80%;
+	color: #f4e3d3;
+}
+
+.card img{
+	height: 40vh;
+}
+
+.info{
+	width: 30%;
+	margin: 25px auto;
+	color: #8e7157;
+	font-size: 20px;
+}
+
+.ba-title{
+	color: #8e7157;
+	font-size: 50px;
+	margin: 5px;
+}
+
+.white-text{
+	color: #ffffff;
+	padding-top: 30px;
+}
+
+.announce-button{
+	float: right;
+	color: #8e7157;
+	background-color: #f4e3d3;
+}
